@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<main>
+<body>
+  <!-- Title and Description -->
+  <div> 
+    <h1 id="title">Take A Random Survey!</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam asperiores facilis sapiente tempora! Fugit optio beatae facilis, itaque numquam reprehenderit, praesentium necessitatibus corrupti nemo explicabo officia minima ea est id a cumque consectetur nam in excepturi. Sint, dolorem necessitatibus.</p>
+  </div>
+  <!-- Form -->
+  <div>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label><br><br>
+      <input type="text" name="name" id="name" placeholder="John Doe" required><br><br>
+      <label for="email" id="email-label">E-Mail</label><br><br>
+      <input type="email" name="email" id="email" placeholder="email@email.com" required><br><br>
+      <label for="number" id="number-label">Age</label><br><br>
+      <input type="number" name="number" id="number" min="0" max="100" placeholder="21">
+      <br><br>
+      <label for="dropdown">Do you prefer chocolate or vanilla ice cream?</label><br><br>
+      <select name="dropdown" id="dropdown">
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+      </select><br><br>
+      <label for="toppings">Select your favorite ice cream topping:</label><br><br>
+      <input type="radio" name="toppings" id="radiotop" value="cherries">Cherries
+      <input type="radio" name="toppings" id="radiotop" value="sprinkles">Sprinkles
+      <input type="radio" name="toppings" id="radiotop" value="chocolatesyrup">Chocolate Syrup <br><br>
+      <label for="type">Select your favorite ice cream type:</label><br><br>
+      <input type="radio" name="type" id="radiotop" value="gelato">Gelato
+      <input type="radio" name="type" id="radiotop" value="frozenyogurt">Frozen Yogurt
+      <input type="radio" name="type" id="radiotop" value="dairyicecream">Dairy Ice Cream <br><br>
+      <label for="stores">Which ice cream stores have you been to?</label><br><br>
+      <input type="checkbox" name="stores" id="stores" value="Baskin Robbins">Baskin Robbins
+      <input type="checkbox" name="stores" id="stores" value="Yogurt Beach">Yogurt Beach
+      <input type="checkbox" name="stores" id="stores" value="Coldstone">Coldstone <br><br>
+      <label for="textarea">Include a short paragraph about how ice cream has affected your life thus far, whether positive or negative.</label><br><br>
+      <textarea name="textarea" id="" cols="30" rows="10"></textarea><br><br>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+</body>
+</main>
+</html>
